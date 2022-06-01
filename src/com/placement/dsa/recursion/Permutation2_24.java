@@ -10,7 +10,7 @@ public class Permutation2_24 {
 		// TODO Auto-generated method stub
 
 		// TODO Auto-generated method stub
-		int[] arr = {1, 2, 3};
+		int[] arr = {1, 2, 3, 4};
 		List<Integer> list = new ArrayList<Integer>();
 		List<List<Integer>> ans = new ArrayList<>();
 		
