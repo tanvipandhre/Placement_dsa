@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
 
+//using 2 stacks
 public class postOrderTrav_07 {
 
 	public static void main(String[] args) {
