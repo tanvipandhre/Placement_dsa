@@ -60,7 +60,7 @@ public class BoundaryTrav_16 {
 	public static void addLeaves(Node root, ArrayList<Integer> res) {
 		if( isLeaf(root) ) {
 			res.add(root.data);
-			return;
+			return; //this return is wow
 		}
 		if( root.left != null)
 			addLeaves(root.left, res);
