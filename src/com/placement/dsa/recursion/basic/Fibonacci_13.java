@@ -1,4 +1,4 @@
-package com.placement.dsa.recursion;
+package com.placement.dsa.recursion.basic;
 
 import java.util.Scanner;
 
@@ -20,5 +20,19 @@ public class Fibonacci_13 {
 			return fibonacci(n-1) + fibonacci(n-2);
 		}
 	}
+	//time- o(n) space - O(n)
+	public static int[] generateFibonacciNumbers(int n) {
+        // Write your code here.
+        int[] res = new int[n];
+        if(n==1) res[0]=0;
+        else {
+            res[0] = 0;
+            res[1] = 1;
+            for(int i = 2; i<n;i++)
+                res[i] = res[i-1] + res[i-2];
+        }
+        return res;
+    }
+	
 
 }
